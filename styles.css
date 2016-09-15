@@ -1,0 +1,37 @@
+#navbar {
+    color: green;
+}
+#navbar > li {
+    display:inline-block;
+    border: 2px solid yellow;
+    font-size: xx-large;   
+    font-family: Verdana;
+    margin:12px;
+}
+#navbar > li > a{   
+    color: yellow;
+    background-color: purple;
+}
+#title {
+    background-color: purple;
+    color: yellow;
+    font-size: xx-large;
+}
+#p1 {
+    background-color: purple;
+    color: yellow;
+    font-size: large;   
+}
+#bod {
+    background-color: royalblue; 
+}
+#subtitle {
+    background-color: purple;
+    color: yellow;
+    font-size: xx-large;
+}
+#p2 {
+    background-color: purple;
+    color: yellow;
+    font-size: x-large;   
+}

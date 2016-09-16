@@ -3,35 +3,53 @@
 }
 #navbar > li {
     display:inline-block;
-    border: 2px solid yellow;
-    font-size: xx-large;   
-    font-family: Verdana;
-    margin:12px;
+    border: 10px solid purple;
+    border-top-width: 12px;
+    border-radius: 30003px;
+    font-size: x-large;   
+    font-family: "Comic Sans MS", cursive, Arial;
+    margin: 2px;
 }
 #navbar > li > a{   
     color: yellow;
     background-color: purple;
+    border: 5px solid yellow;
+    text-decoration: none;
+    border-radius: 110px;
+    padding: 0px 5px 0px 5px;
 }
-#title {
+.title {
     background-color: purple;
     color: yellow;
     font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive, Arial;
 }
-#p1 {
+.p {
+    width:536px;
     background-color: purple;
     color: yellow;
-    font-size: large;   
+    font-size: large;
+    padding: 0px 20px 0px 20px;
+    font-family: "Comic Sans MS", cursive, Arial;
+    display: inline-block;
+}
+.container {
+    display: inline-block;
+    background-color: purple;
+    border-radius: 10px;
+}
+.container > * {
+    vertical-align: top
+    
 }
 #bod {
-    background-color: royalblue; 
+    background-color: royalblue;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-#subtitle {
-    background-color: purple;
-    color: yellow;
-    font-size: xx-large;
+#img {
+    border-radius: 10px;
 }
-#p2 {
-    background-color: purple;
-    color: yellow;
-    font-size: x-large;   
-}
+

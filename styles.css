@@ -6,7 +6,7 @@
     border: 10px solid purple;
     border-top-width: 12px;
     border-radius: 30003px;
-    font-size: x-large;   
+    font-size: large;   
     font-family: "Comic Sans MS", cursive, Arial;
     margin: 2px;
 }
@@ -18,10 +18,19 @@
     border-radius: 110px;
     padding: 0px 5px 0px 5px;
 }
-.title {
+#heading {
+    text-align: center;
     background-color: purple;
     color: yellow;
     font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive, Arial;
+}
+.title {
+    background-color: purple;
+    color: yellow;
+    font-size: x-large;
     padding: 10px;
     border-radius: 10px;
     font-family: "Comic Sans MS", cursive, Arial;
@@ -34,6 +43,19 @@
     padding: 0px 20px 0px 20px;
     font-family: "Comic Sans MS", cursive, Arial;
     display: inline-block;
+    border-radius: 10px;
+}
+.p2 {
+    background-color: purple;
+    color: yellow;
+    font-size: large;
+    padding: 0px 10px 10px 10px;
+    font-family: "Comic Sans MS", cursive, Arial;
+    display: inline-block;
+    border-radius: 10px;
+}
+.p2 > img {
+    text-align: center;
 }
 .container {
     display: inline-block;
@@ -44,12 +66,32 @@
     vertical-align: top
     
 }
-#bod {
+.bod {
     background-color: royalblue;
     margin-left: 10%;
     margin-right: 10%;
 }
-#img {
+.img {
     border-radius: 10px;
 }
-
+/*
+.infocontainer {
+    text-align:center;
+    width=100%;
+}
+.infocontainer > p {
+    text-align:left;
+}
+*/
+.centerimg {
+    text-align: center
+}
+#p3{
+    background-color: purple;
+    color: yellow;
+    font-size: large;
+    padding: 0px 10px 10px 10px;
+    font-family: "Comic Sans MS", cursive, Arial;
+    display: inline-block;
+    border-radius: 10px;
+}

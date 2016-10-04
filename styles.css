@@ -1,5 +1,5 @@
 #navbar {
-    color: green;
+    
 }
 #navbar > li {
     display:inline-block;
@@ -36,7 +36,6 @@
     font-family: "Comic Sans MS", cursive, Arial;
 }
 .p {
-    width:536px;
     background-color: purple;
     color: yellow;
     font-size: large;
@@ -44,18 +43,29 @@
     font-family: "Comic Sans MS", cursive, Arial;
     display: inline-block;
     border-radius: 10px;
+    width:48.6%;
 }
 .p2 {
     background-color: purple;
     color: yellow;
     font-size: large;
-    padding: 0px 10px 10px 10px;
     font-family: "Comic Sans MS", cursive, Arial;
-    display: inline-block;
     border-radius: 10px;
+    width: 
+    100%;
 }
 .p2 > img {
     text-align: center;
+}
+.p3 {
+    background-color: purple;
+    color: yellow;
+    font-size: large;
+    font-family: "Comic Sans MS", cursive, Arial;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .container {
     display: inline-block;
@@ -72,6 +82,8 @@
     margin-right: 10%;
 }
 .img {
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
 }
 /*
@@ -94,4 +106,14 @@
     font-family: "Comic Sans MS", cursive, Arial;
     display: inline-block;
     border-radius: 10px;
+}
+.basket{
+    background-color: purple;
+    color: yellow;
+    font-size: large;
+    font-family: "Comic Sans MS", cursive, Arial;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

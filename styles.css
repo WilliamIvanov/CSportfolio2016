@@ -76,11 +76,6 @@
     vertical-align: top
     
 }
-.bod {
-    background-color: royalblue;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .img {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -112,9 +107,93 @@
     color: yellow;
     font-size: large;
     font-family: "Comic Sans MS", cursive, Arial;
-    border-radius: 10px;
+    bordser-radius: 10px;
     padding-top: 1px;
     padding-left: 20px;
     padding-right: 20px;
 }
 /* CSS for Calculator: */
+/* I'm going to make a new color scheme for the rest of my website*/
+.bod {
+    background-color: royalblue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#navbar2 {
+    background-color: #525564;
+    border-radius: 1002px;
+    width: 100%;
+}
+#navbar2 > li {
+    display:inline-block;
+    width: 13%;
+    background-color: #74828F;
+    border-radius: 100px;
+    /*border: 10px solid purple;
+    border-top-width: 12px;
+    border-radius: 30003px;*/
+    font-size: x-large;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 4px;
+    text-align: center;
+
+}
+#navbar2 > li > a{   
+    color: #96C0CE;;
+    text-decoration: none;
+    /*background-color: purple;
+    border: 5px solid yellow;
+    border-radius: 110px;
+    padding: 0px 5px 0px 5px;*/
+}
+.container2 {
+    background-color: #525564;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+}
+.Size4thOfBody {
+    width: 24%;
+    background-color: #96C0CE;
+    font-size: 20px;
+    height: 100px;
+    border: 5px solid #74828F;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    border-radius: 10px;
+}
+/*The input boxes were bigger than the select and the button, so I made them another class*/
+.Size4thOfBody2 {
+    width: 24%;
+    background-color: #96C0CE;
+    font-size: 20px;
+    height: 112px;
+    border: 5px solid #74828F;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border-radius: 10px;
+}
+/* changing placeholder color: http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    black;
+}
+#calcOutput {
+    width: 99%;
+    background-color: #96C0CE;
+    border-radius: 10px;
+    border: 5px solid #74828F;
+    padding: 5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+}

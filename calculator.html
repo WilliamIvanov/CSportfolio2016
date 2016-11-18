@@ -4,8 +4,8 @@
         <title>Calculator </title>
         <link rel="stylesheet" href="styles.css" type="text/css" />
     </head>
-    <body>
-        <ul id="navbar">
+    <body class="bod">
+        <ul id="navbar2">
             <li><a href="index.html"> About Me </a> </li>
             <li><a href="hardware.html"> Hardware </a> </li>
             <li><a href="howto.html"> How To </a></li>
@@ -14,18 +14,20 @@
             <li><a href="#"> Vindinium </a> </li>
             <li><a href="#"> Big Project </a> </li>
         </ul>
-        <input id="firstNumber" type="number" placeholder="Input 1st number here">
-        <select id="operator">
-            <option value="" disabled selected>Choose operation</option>
-            <option value="1" >+ (add)</option>
-            <option value="2">- (subtract)</option>
-            <option value="3">/ (divide)</option>
-            <option value="4">* (multiply)</option>
-            <option value="5">^ (to the power of)</option>
-            <option value="6">% (remainder)</option>
-        </select>
-        <input id="secondNumber" type="number" placeholder="Input 2nd number here">
-        <button id="calculate">Calculate</button>
-        <script src="calculator.js"></script>
-        <p id="calcOutput">text</p>
+        <div class="container2">
+            <input class="Size4thOfBody" id="firstNumber" type="number" placeholder=" Input 1st number here">
+            <select class="Size4thOfBody2" id="operator">
+                <option value="" disabled selected>Choose operation</option>
+                <option value="1" >+ (add)</option>
+                <option value="2">- (subtract)</option>
+                <option value="3">/ (divide)</option>
+                <option value="4">* (multiply)</option>
+                <option value="5">^ (to the power of)</option>
+                <option value="6">% (remainder)</option>
+            </select>
+            <input class="Size4thOfBody" id="secondNumber" type="number" placeholder=" Input 2nd number here">
+            <button class="Size4thOfBody2" id="calculate">Calculate</button>
+            <script src="calculator.js"></script>
+            <p id="calcOutput">Answer:</p>
+        </div>
 </html>

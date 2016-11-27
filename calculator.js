@@ -22,7 +22,7 @@ calculate.addEventListener("click", function(){
             document.getElementById("calcOutput").innerHTML = "The answer is too big or too small. This calculator can only calculate answers under 1.897693134862315E+308 and over -1.897693134862315E+308.";
 //The next line prints the answer in the paragraph element with an id of calcOutput
         else
-            document.getElementById("calcOutput").innerHTML = parseInt(num1.value)+" + "+parseInt(num2.value)+" = "+answer;
+            document.getElementById("calcOutput").innerHTML = "&emsp;" + parseInt(num1.value)+" + "+parseInt(num2.value)+" = "+answer;
     }else if(operator==2){
 //This runs if subtraction was selected
 //The next line gives var answer a value of the diference of the two inputs
@@ -32,7 +32,7 @@ calculate.addEventListener("click", function(){
             document.getElementById("calcOutput").innerHTML = "The answer is too big or too small. This calculator can only calculate answers under 1.897693134862315E+308 and over -1.897693134862315E+308.";//The next line prints the answer in the paragraph element with an id of calcOutput
 //The next line prints the answer in the paragraph element with an id of calcOutput
         else
-            document.getElementById("calcOutput").innerHTML = parseInt(num1.value)+" - "+parseInt(num2.value)+" = "+answer;
+            document.getElementById("calcOutput").innerHTML = "&emsp;" + parseInt(num1.value)+" - "+parseInt(num2.value)+" = "+answer;
     }else if(operator==3){
 //This runs if division was selected
 //The next line gives var answer a value of the quotient of the two inputs
@@ -42,7 +42,7 @@ calculate.addEventListener("click", function(){
             document.getElementById("calcOutput").innerHTML = "The answer is too big or too small. This calculator can only calculate answers under 1.897693134862315E+308 and over -1.897693134862315E+308.";//The next line prints the answer in the paragraph element with an id of calcOutput
 //The next line prints the answer in the paragraph element with an id of calcOutput
         else
-            document.getElementById("calcOutput").innerHTML = parseInt(num1.value)+" / "+parseInt(num2.value)+" = "+answer;
+            document.getElementById("calcOutput").innerHTML = "&emsp;" + parseInt(num1.value)+" / "+parseInt(num2.value)+" = "+answer;
     }else if(operator==4){
 //This runs if multiplication was selected
 //The next line gives var answer a value of the product of the two inputs
@@ -52,7 +52,7 @@ calculate.addEventListener("click", function(){
             document.getElementById("calcOutput").innerHTML = "The answer is too big or too small. This calculator can only calculate answers under 1.897693134862315E+308 and over -1.897693134862315E+308.";//The next line prints the answer in the paragraph element with an id of calcOutput
 //The next line prints the answer in the paragraph element with an id of calcOutput
         else
-            document.getElementById("calcOutput").innerHTML = parseInt(num1.value)+" * "+parseInt(num2.value)+" = "+answer;
+            document.getElementById("calcOutput").innerHTML = "&emsp;" + parseInt(num1.value)+" * "+parseInt(num2.value)+" = "+answer;
     }else if(operator==5){
 //This runs if exponents were selected
 //The next 2 lines give var answer a value of first number to the power of the second number
@@ -63,7 +63,7 @@ calculate.addEventListener("click", function(){
             document.getElementById("calcOutput").innerHTML = "The answer is too big or too small. This calculator can only calculate answers under 1.897693134862315E+308 and over -1.897693134862315E+308.";//The next line prints the answer in the paragraph element with an id of calcOutput
 //The next line prints the answer in the paragraph element with an id of calcOutput
         else
-            document.getElementById("calcOutput").innerHTML = parseInt(num1.value)+"^"+parseInt(num2.value)+" = "+answer;
+            document.getElementById("calcOutput").innerHTML = "&emsp;" + parseInt(num1.value)+"^"+parseInt(num2.value)+" = "+answer;
     }else{
 //This runs if the remainder (modulo) was selected
 //The net line gives var answer the value of the remainder of num1 divided by num2
@@ -73,6 +73,6 @@ calculate.addEventListener("click", function(){
             document.getElementById("calcOutput").innerHTML = "The answer is too big or too small. This calculator can only calculate answers under 1.897693134862315E+308 and over -1.897693134862315E+308.";//The next line prints the answer in the paragraph element with an id of calcOutput
 //The next line prints the answer in the paragraph element with an id of calcOutput
         else
-            document.getElementById("calcOutput").innerHTML = parseInt(num1.value)+" % "+parseInt(num2.value)+" = "+answer;;
+            document.getElementById("calcOutput").innerHTML = "&emsp;" + parseInt(num1.value)+" % "+parseInt(num2.value)+" = "+answer;;
     }
 })

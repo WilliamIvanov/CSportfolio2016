@@ -163,7 +163,7 @@
     text-align: center;
     border-radius: 10px;
 }
-/*The input boxes were bigger than the select and the button, so I made them another class*/
+/*The input boxes were bigger than the select and the button, so I made another class for them*/
 .Size4thOfBody2 {
     width: 24%;
     background-color: #96C0CE;
@@ -188,12 +188,22 @@
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    black;
 }
+/*end of placeholder color change*/
 #calcOutput {
-    width: 99%;
+    width: 100%;
     background-color: #96C0CE;
     border-radius: 10px;
     border: 5px solid #74828F;
-    padding: 5px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title2 {
+    width: 100%;
+    text-align: center;
+    background-color: #96C0CE;
+    border-radius: 100px;
+    border: 5px solid #74828F;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }

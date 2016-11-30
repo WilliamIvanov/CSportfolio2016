@@ -246,3 +246,15 @@
     font-size: 16px;
     color: white;
 }
+#deleteAllBtn {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    background-color: #96C0CE;
+    font-size: 20px;
+    height: 60px;
+    border: 5px solid #74828F;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border-radius: 10px;
+}
